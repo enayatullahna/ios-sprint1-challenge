@@ -26,7 +26,11 @@ class MovieController {
     
     
     
-    //delete cell here
+    func delete(movie: Movie) { // delete cell
+        guard let index = movies.firstIndex(of: movie) else {return}
+        
+        movies.remove(at: index)
+    }
     
     
     

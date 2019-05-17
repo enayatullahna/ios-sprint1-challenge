@@ -19,7 +19,8 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -35,7 +36,7 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as? MovieTableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MovieListCell", for: indexPath) as? MovieTableViewCell else { return UITableViewCell() }
         
         let movie = self.movieController.movies[indexPath.row]
         cell.movieNameLabel.text = movie.name
