@@ -54,6 +54,15 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.tableView.reloadRows(at: [indexPath], with: .none)
     }
     
+    // Delete movie from the list
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let movie = movieController.movies[indexPath.row]
+            movieController.delete(movie: movie)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
     
     // Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

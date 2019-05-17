@@ -9,6 +9,15 @@
 import Foundation
 class MovieController {
     
+    init () { // movie list
+        movies.append(Movie(name: "How to train your dragon"))
+        movies.append(Movie(name: "Avengers: End Game"))
+        movies.append(Movie(name: "Avatar"))
+        movies.append(Movie(name: "Wall-E"))
+        movies.append(Movie(name: "X-Men"))
+        movies.append(Movie(name: "2012"))
+        
+    }
     
     private(set) var movies: [Movie] = [] // movie array
     

@@ -102,8 +102,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7n-hO-1xo">
-                                <rect key="frame" x="184" y="193" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="171" y="193" width="73" height="30"/>
+                                <state key="normal" title="Add Movie"/>
                                 <connections>
                                     <action selector="addMovieButtonTapped:" destination="nOr-DI-Wad" eventType="touchUpInside" id="6Gx-7p-6pM"/>
                                 </connections>
@@ -118,11 +118,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Au1-HU-CLe" firstAttribute="trailing" secondItem="P02-sI-auU" secondAttribute="trailing" constant="10" id="4N8-y9-wzi"/>
+                            <constraint firstItem="t7n-hO-1xo" firstAttribute="top" secondItem="aWa-6n-lEV" secondAttribute="bottom" constant="16" id="CY8-PZ-CxV"/>
                             <constraint firstItem="aWa-6n-lEV" firstAttribute="leading" secondItem="Au1-HU-CLe" secondAttribute="leading" constant="20" id="GSl-Qa-xvD"/>
+                            <constraint firstItem="Au1-HU-CLe" firstAttribute="trailing" secondItem="t7n-hO-1xo" secondAttribute="trailing" constant="170" id="Htb-UQ-Jwc"/>
+                            <constraint firstItem="t7n-hO-1xo" firstAttribute="leading" secondItem="Au1-HU-CLe" secondAttribute="leading" constant="171" id="J6c-aK-yMe"/>
                             <constraint firstItem="aWa-6n-lEV" firstAttribute="top" secondItem="P02-sI-auU" secondAttribute="bottom" constant="16" id="LlX-mb-wEf"/>
-                            <constraint firstItem="t7n-hO-1xo" firstAttribute="top" secondItem="aWa-6n-lEV" secondAttribute="bottom" constant="16" id="XFg-Dq-elY"/>
-                            <constraint firstItem="t7n-hO-1xo" firstAttribute="leading" secondItem="Au1-HU-CLe" secondAttribute="leading" constant="184" id="Xcm-cc-S8P"/>
-                            <constraint firstItem="Au1-HU-CLe" firstAttribute="trailing" secondItem="t7n-hO-1xo" secondAttribute="trailing" constant="184" id="ZpR-bq-srk"/>
                             <constraint firstItem="P02-sI-auU" firstAttribute="leading" secondItem="Au1-HU-CLe" secondAttribute="leading" constant="10" id="cT3-9A-ZmT"/>
                             <constraint firstItem="Au1-HU-CLe" firstAttribute="trailing" secondItem="aWa-6n-lEV" secondAttribute="trailing" constant="20" id="jcF-tt-Zr8"/>
                             <constraint firstItem="P02-sI-auU" firstAttribute="top" secondItem="Au1-HU-CLe" secondAttribute="top" constant="8" id="kst-9l-XO8"/>

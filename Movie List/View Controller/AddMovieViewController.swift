@@ -23,7 +23,7 @@ class AddMovieViewController: UIViewController {
     @IBAction func addMovieButtonTapped(_ sender: Any) {
         guard let name = self.movieNameTextField.text else {return}
         
-        if name != "" { // if name is not empty
+        if name != "" { // if movie name label is not empty, 
             self.movieController?.createMovie(with: name)
             navigationController?.popViewController(animated: true) // Goes back after entering movie name
         }
