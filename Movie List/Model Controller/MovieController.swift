@@ -9,6 +9,7 @@
 import Foundation
 class MovieController {
     
+    
     private(set) var movies: [Movie] = [] // movie array
     
     func createMovie(with name: String) {
@@ -23,7 +24,11 @@ class MovieController {
         movies[index].name = name
     }
     
+    
+    
     //delete cell here
+    
+    
     
     func switchSeen(at indexPath: IndexPath) {
         self.movies[indexPath.row].seen = !self.movies[indexPath.row].seen // switch
