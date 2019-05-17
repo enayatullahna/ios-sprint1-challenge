@@ -16,6 +16,8 @@
 		E6D19254228F4250001F9CB6 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D19253228F4250001F9CB6 /* MovieController.swift */; };
 		E6D19258228F44D9001F9CB6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D19257228F44D9001F9CB6 /* MovieViewController.swift */; };
 		E6D1925A228F44FD001F9CB6 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D19259228F44FD001F9CB6 /* AddMovieViewController.swift */; };
+		E6D1925C228F480A001F9CB6 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D1925B228F480A001F9CB6 /* MovieTableViewCell.swift */; };
+		E6D1925E228F48C8001F9CB6 /* MovieTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D1925D228F48C8001F9CB6 /* MovieTableViewCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E6D19253228F4250001F9CB6 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 		E6D19257228F44D9001F9CB6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		E6D19259228F44FD001F9CB6 /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		E6D1925B228F480A001F9CB6 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		E6D1925D228F48C8001F9CB6 /* MovieTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 		E6D19256228F44A4001F9CB6 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				E6D1925B228F480A001F9CB6 /* MovieTableViewCell.swift */,
+				E6D1925D228F48C8001F9CB6 /* MovieTableViewCellDelegate.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D1925E228F48C8001F9CB6 /* MovieTableViewCellDelegate.swift in Sources */,
 				E6D19254228F4250001F9CB6 /* MovieController.swift in Sources */,
 				E6D19251228F416E001F9CB6 /* Movie.swift in Sources */,
+				E6D1925C228F480A001F9CB6 /* MovieTableViewCell.swift in Sources */,
 				467E198D20F5165800E7FF73 /* AppDelegate.swift in Sources */,
 				E6D1925A228F44FD001F9CB6 /* AddMovieViewController.swift in Sources */,
 				E6D19258228F44D9001F9CB6 /* MovieViewController.swift in Sources */,
