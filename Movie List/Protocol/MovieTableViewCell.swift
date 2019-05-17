@@ -20,7 +20,7 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     
-//    w
+    weak var delegate: MovieTableViewCellDelegate?
     
     private func updateViews(){
         guard let movie = self.movie else { return }
