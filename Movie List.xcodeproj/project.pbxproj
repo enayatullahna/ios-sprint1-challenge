@@ -12,6 +12,8 @@
 		467E199420F5165900E7FF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467E199320F5165900E7FF73 /* Assets.xcassets */; };
 		8E5B3916218CDD4D00AB9C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B3914218CDD4D00AB9C2B /* LaunchScreen.storyboard */; };
 		8E5B3917218CDD4D00AB9C2B /* LambdaLogoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B3915218CDD4D00AB9C2B /* LambdaLogoAssets.xcassets */; };
+		E6D19251228F416E001F9CB6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D19250228F416E001F9CB6 /* Movie.swift */; };
+		E6D19254228F4250001F9CB6 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D19253228F4250001F9CB6 /* MovieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		467E199820F5165900E7FF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E5B3914218CDD4D00AB9C2B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E5B3915218CDD4D00AB9C2B /* LambdaLogoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LambdaLogoAssets.xcassets; sourceTree = "<group>"; };
+		E6D19250228F416E001F9CB6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E6D19253228F4250001F9CB6 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		467E198B20F5165700E7FF73 /* Movie List */ = {
 			isa = PBXGroup;
 			children = (
+				E6D19252228F41C9001F9CB6 /* Model Controller */,
+				E6D1924F228F4157001F9CB6 /* Model */,
 				E6D1924E228F3DD3001F9CB6 /* Resources */,
 				E6D1924D228F3DBE001F9CB6 /* Storyboard */,
 			);
@@ -78,6 +84,22 @@
 				8E5B3915218CDD4D00AB9C2B /* LambdaLogoAssets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6D1924F228F4157001F9CB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6D19250228F416E001F9CB6 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6D19252228F41C9001F9CB6 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6D19253228F4250001F9CB6 /* MovieController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D19254228F4250001F9CB6 /* MovieController.swift in Sources */,
+				E6D19251228F416E001F9CB6 /* Movie.swift in Sources */,
 				467E198D20F5165800E7FF73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
