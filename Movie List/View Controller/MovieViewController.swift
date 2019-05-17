@@ -15,7 +15,6 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var tableView: UITableView!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
