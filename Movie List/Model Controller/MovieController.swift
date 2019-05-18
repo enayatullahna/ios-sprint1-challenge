@@ -9,7 +9,7 @@
 import Foundation
 class MovieController {
     
-    init () { // movie list
+/*    init () { // movie list
         movies.append(Movie(name: "How to train your dragon"))
         movies.append(Movie(name: "Avengers: End Game"))
         movies.append(Movie(name: "Avatar"))
@@ -17,7 +17,7 @@ class MovieController {
         movies.append(Movie(name: "X-Men"))
         movies.append(Movie(name: "2012"))
         
-    }
+    } */
     
     private(set) var movies: [Movie] = [] // movie array
     
