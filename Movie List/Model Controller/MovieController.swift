@@ -19,7 +19,7 @@ class MovieController {
         
     } */
     
-    private(set) var movies: [Movie] = [] // movie array
+    private(set) var movies: [Movie] = [] // movie array, calling the movie class
     
     func createMovie(with name: String) {
         
@@ -44,7 +44,7 @@ class MovieController {
     
     
     func switchSeen(at indexPath: IndexPath) {
-        self.movies[indexPath.row].seen = !self.movies[indexPath.row].seen // switch
+        self.movies[indexPath.row].seen = !self.movies[indexPath.row].seen // switch between seen not seen
     }
 }
 
